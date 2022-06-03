@@ -87,7 +87,8 @@ a {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
-  height: 80vh;
+  background-attachment: fixed;
+  height: 100vh;
 }
 .card-overlay {
   background: rgba(0, 0, 0, 0.747);
@@ -156,7 +157,7 @@ a {
   text-align: center;
 }
 .content-nav {
-  height: 60vh;
+  height: 90vh;
   /* background-color: rgba(230, 230, 230, 0.288); */
   text-align: center;
   display: flex;
